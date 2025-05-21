@@ -1,0 +1,2 @@
+1、PC机运行：
+python train.py

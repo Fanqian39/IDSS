@@ -1,0 +1,23 @@
+安装：python以及库pytorch: torch, torchvision, Pillow, matplotlib
+
+
+安装方法：
+1、pyhton
+.exe直接安装即可。
+
+2、pytorch: torch, torchvision, Pillow, matplotlib
+打开cmd，输入 python
+如果python安装成功，则会显示出python的版本
+exit()退出
+
+pip --default-timeout=100 install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
+（这条指令粘贴到cmd中回车即可。注：这个是pytorch CPU版本，如想安装GPU版本可自行查找一下指令）
+pip --default-timeout=100 install Pillow-i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
+pip --default-timeout=100 install matplotlib -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
+`````````````````````````````````````````````````````````````````
+输入python
+import torch
+import torchvision
+import PIL
+import matplotlib
+如果没有报错，既安装完成。
